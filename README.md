@@ -55,7 +55,9 @@
 	
 ## vue组件中使用
 如果是静态图片的话，可以在computed中定义一个webp后缀变量来实现
+
 	<img :src="'y.taofen8.com/xxx.jpg' + webpSuffix" />
+
 其他动态图片的话，可以直接由服务端根据cookie，来决定下发哪种图片格式。
 
 # retina兼容
